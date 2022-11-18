@@ -1,0 +1,245 @@
+* {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    line-height: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 7px;
+    vertical-align: middle;
+}
+
+nav,
+footer {
+    padding: 4px 20px;
+}
+nav img {
+    list-style: none;
+    color: #000;
+    opacity: 0.85;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration-line: underline;
+}
+.right_nav {
+    float: right;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 8px;
+}
+
+.apps {
+    width: 16px;
+    height: 16px;
+    margin-top: -2px;
+    padding-right: 9px;
+    opacity: 0.75;
+}
+
+.apps:hover {
+        box-shadow: 10px gray;
+    opacity: 1;
+}
+
+.sign {  
+    background: #1a73e8;
+    border: 1px solid transparent;
+    outline: none;  
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;  
+    line-height: 28px;  
+    padding: 0 12px;  
+    border-radius: 2px;  
+   }  
+   .sign a {  
+    color: #fff;  
+    opacity: 1;  
+    text-decoration: none;  
+   }  
+   .sign a:hover {  
+    opacity: 1;  
+    text-decoration: none;  
+   }  
+   .sign:hover {  
+    opacity: 1;  
+    box-shadow: 0 1.5px 0 0 #e4e4e4;  
+   }  
+
+.main_logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.logo {
+    display: 100%;
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin: auto;
+}
+
+.form {
+    display: block;
+    margin: auto;
+}
+
+.search_bar {
+    border-radius: 40px;
+    width: 585px;
+    margin: auto;
+    height: 39px;
+    border: .7px solid #E4E4E4;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px #E4E4E4;
+    margin-bottom: 20px;
+    outline: none;
+    text-indent: 15px;
+}
+
+.search_bar:hover, .search_bar:active {
+    padding-bottom: 2px;
+    padding-top: 1px;
+    margin-top: -1px;
+    width: 585px;
+    box-shadow: 0px 3px 8px #E4E4E4;
+    outline: none;
+}
+
+.cam {
+    width: 22px;
+    height: 20px;
+    position: relative;
+    left: 455px;
+    top: 36px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.keyb {
+    position: relative;
+    left: 455px;
+    top: 32px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.mic {
+    width: 16px;
+    height: 20px;
+    position: relative;
+    left: 455px;
+    top: 36px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+span {
+    width: 14px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: 38px;
+    color: #9aa0a6;
+}
+
+
+.submit_buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit_buttons {
+    position: relative;
+    left: 25%;
+    right: -50%;
+    cursor: pointer;
+}
+
+.submit_buttons:hover {
+    border: .7px solid #d0d0d0;
+    color: #000;
+    box-shadow: 0px 1px 4px #E4E4E4;
+}
+.lang {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: #111;
+}
+
+.lang a {
+	padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left_ftr {  
+    float: left;  
+   }  
+   .right_ftr {  
+    float: right;  
+   }  
+   .info {  
+    line-height: 0px;  
+    position: absolute;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    color: #666666;  
+    background-color: #f2f2f2;   
+   }  
+   .country {
+    border-bottom: 1px solid #dadce0;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #70757a;
+    line-height: 30px;  
+    position: relative;  
+    color: #666666;  
+    background-color: #f2f2f2;   
+   }  
+.setting {
+    padding: 0px 20px;
+}
+
+   footer a {  
+    text-decoration: none;  
+    color: #70757a; 
+    padding: 15px;
+   }  
+   footer a:hover {  
+    text-decoration-line: underline;  
+   }  
+
+   
